@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+		<meta charset="utf-8">
+		<title>Motif App</title>
+		<meta name="description" content="">
+		<!-- <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png"> -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+		<div class="content-wrapper">
+		
+	        <header class="header">
+	            <div class="container">
+	                <div class="main-wrapper">
+	                    <div class="row">
+	                        <div class="col-md-4 col-sm-5 col-7">
+	                            <div class="main__logo">
+	                                Motif Apps
+	                            </div>
+	                        </div>
+	                        <div class="col-md-8 col-sm-7 col-5">
+	                            <div class="main__menu">
+	                                <nav>
+	                                    <a href="index.html">Welcome</a>
+	                                    <a href="tutorial.html">Tutorial</a>
+	                                    <a href="contacts.html">Contact</a>
+	                                </nav>
+	                            </div>
+	                            <div class="main__menu_mob main__menu_mob_header">
+	                                <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">
+	                                <label for="checkbox4">
+	                                    <div class="hamburger hamburger4">
+	                                        <span class="bar bar1"></span>
+	                                        <span class="bar bar2"></span>
+	                                        <span class="bar bar3"></span>
+	                                        <span class="bar bar4"></span>
+	                                        <span class="bar bar5"></span>
+	                                    </div>
+	                                </label>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </header>
+
+			<section class="result">
+				<div class="container">
+					<div class="main-wrapper">
+						<div class="breadcrumbs text-center">
+							<ul>
+								<li><a href="index.html">Welcome</a></li>
+								<li><a href="javascript:void(0);">Result</a></li>
+							</ul>
+						</div>
+						<h1 class="text-center">Result</h1>
+						<div class="result__filters">
+							<div class="page-subtitle">
+								Filters
+							</div>
+							<div class="row">
+								<div class="col-lg-5">
+									<div class="main__calc_item">
+										<div class="row">
+											<div class="col-6">
+												<label>
+									                <input class="form-radio" type="radio" name="radio1">
+									                <span class="radio-custom"></span>
+									                <span class="text__gray">Z-score bigger then</span>
+									            </label>
+											</div>
+											<div class="col-6">
+												<div class="number">
+						  							<span class="minus">-</span>
+						  							<input type="text" value="1">
+						  							<span class="plus">+</span>
+						  						</div>
+											</div>
+										</div>
+									</div>
+									<div class="main__calc_item">
+										<div class="row">
+											<div class="col-6">
+												<label>
+									                <input class="form-radio" type="radio" name="radio1">
+									                <span class="radio-custom"></span>
+									                <span class="text__gray">R’bigger then</span>
+									            </label>
+											</div>
+											<div class="col-6">
+												<div class="number">
+						  							<span class="minus">-</span>
+						  							<input type="text" value="1">
+						  							<span class="plus">+</span>
+						  						</div>
+											</div>
+										</div>
+									</div>
+									<div class="main__calc_item">
+										<div class="row">
+											<div class="col-6">
+												<label>
+									                <input class="form-radio" type="radio" name="radio1">
+									                <span class="radio-custom"></span>
+									                <span class="text__gray">Motifs found at least</span>
+									            </label>
+											</div>
+											<div class="col-6">
+												<div class="number">
+						  							<span class="minus">-</span>
+						  							<input type="text" value="1">
+						  							<span class="plus">+</span>
+						  						</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 offset-lg-1">
+									<div class="main__calc_item result-checkbox">
+							            <label>
+							                <input class="form-checkbox" type="checkbox">
+							                <span class="checkbox-custom"></span>
+							                <span class="text__gray">View Z-score</span>
+							            </label>
+									</div>
+									<div class="main__calc_item result-checkbox">
+							            <label>
+							                <input class="form-checkbox" type="checkbox">
+							                <span class="checkbox-custom"></span>
+							                <span class="text__gray">View R</span>
+							            </label>
+							            <label>
+							                <input class="form-checkbox" type="checkbox">
+							                <span class="checkbox-custom"></span>
+							                <span class="text__gray">View R’</span>
+							            </label>
+									</div>
+									<div class="main__calc_item result-checkbox">
+							            <label>
+							                <input class="form-checkbox" type="checkbox">
+							                <span class="checkbox-custom"></span>
+							                <span class="text__gray">View Accuracy</span>
+							            </label>
+									</div>
+									<div class="main__calc_item result-checkbox">
+							            <label>
+							                <input class="form-checkbox" type="checkbox">
+							                <span class="checkbox-custom"></span>
+							                <span class="text__gray">View Pictures</span>
+							            </label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="result__table">
+							<div class="main-table__wrapper">
+								<div class="main-table">
+									<div class="main-table__row">
+										<div class="main-table__cell header">
+											Picture
+										</div>
+										<div class="main-table__cell header">
+											N_G
+										</div>
+										<div class="main-table__cell header">
+											SD
+										</div>
+										<div class="main-table__cell header">
+											R
+										</div>
+										<div class="main-table__cell header">
+											R’
+										</div>
+										<div class="main-table__cell header">
+											Z-Score
+										</div>
+									</div>
+									<div class="main-table__row">
+										<div class="main-table__cell">
+											<img src="images/img1.png" alt="img1">
+										</div>
+										<div class="main-table__cell">
+											12 459 226, 804
+										</div>
+										<div class="main-table__cell">
+											13 960, 835
+										</div>
+										<div class="main-table__cell">
+											1
+										</div>
+										<div class="main-table__cell">
+											0,993
+										</div>
+										<div class="main-table__cell">
+											- 
+											<i class="icon__infinity"></i>
+										</div>
+									</div>
+									<div class="main-table__row">
+										<div class="main-table__cell">
+											<img src="images/img2.png" alt="img2">
+										</div>
+										<div class="main-table__cell">
+											52 144, 732
+										</div>
+										<div class="main-table__cell">
+											8 093, 956
+										</div>
+										<div class="main-table__cell">
+											1, 008
+										</div>
+										<div class="main-table__cell">
+											0,367
+										</div>
+										<div class="main-table__cell">
+											<i class="icon__infinity"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+    	<footer class="footer">
+    	    <div class="container">
+    	        <div class="main-wrapper">
+    	            <div class="row">
+    	                <div class="col-md-4 col-sm-5 col-7">
+    	                    <div class="main__logo">
+    	                        Motif Apps
+    	                    </div>
+    	                </div>
+    	                <div class="col-md-8 col-sm-7 col-5">
+    	                    <div class="main__menu">
+    	                        <nav>
+    	                            <a href="index.html">Welcome</a>
+    	                            <a href="tutorial.html">Tutorial</a>
+    	                            <a href="contacts.html">Contact</a>
+    	                        </nav>
+    	                    </div>
+    	                    <div class="main__menu_mob">
+    	                        <input type="checkbox" id="checkbox5" class="checkbox4 visuallyHidden">
+    	                        <label for="checkbox5">
+    	                            <div class="hamburger hamburger4">
+    	                                <span class="bar bar1"></span>
+    	                                <span class="bar bar2"></span>
+    	                                <span class="bar bar3"></span>
+    	                                <span class="bar bar4"></span>
+    	                                <span class="bar bar5"></span>
+    	                            </div>
+    	                        </label>
+    	                    </div>
+    	                </div>
+    	            </div>
+    	        </div>
+    	    </div>
+    	</footer>
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script>
+
+    </body>
+</html>

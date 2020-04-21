@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+		<meta charset="utf-8">
+		<title>Motif App</title>
+		<meta name="description" content="">
+		<!-- <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png"> -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+		
+		<div class="content-wrapper">
+		
+	        //= template/header.html
+
+			<section class="main">
+				<div class="container">
+					<div class="main-wrapper">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="page-title">
+									File name of a network in Pajek format
+								</div>
+								<div class="search">
+									<input type="text" placeholder="Select a file...">
+									<button class="main-btn">Open</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="main-wrapper">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-12">
+								<div class="page-title column">
+									Algorithm options
+								</div>
+								<div class="main__calc_item">
+									<div class="row">
+										<div class="col-6">
+											<div class="text__gray">
+												Subgraph Size
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="number">
+					  							<span class="minus">-</span>
+					  							<input type="text" value="1">
+					  							<span class="plus">+</span>
+					  						</div>
+										</div>
+									</div>
+								</div>
+								<div class="main__calc_item">
+									<div class="row">
+										<div class="col-6">
+											<div class="text__gray">
+												Number of samples
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="number">
+					  							<span class="minus">-</span>
+					  							<input type="text" value="1">
+					  							<span class="plus">+</span>
+					  						</div>
+										</div>
+									</div>
+								</div>
+								<div class="main__calc_size">
+									<label>
+						                <input class="form-checkbox" type="checkbox">
+						                <span class="checkbox-custom"></span>
+						                <span class="text__gray">Subgraph Size</span>
+						            </label>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-12">
+								<div class="main__calc_block">
+									<div class="main__calc_item">
+							            <label>
+							                <input class="form-radio" type="radio" name="radio1">
+							                <span class="radio-custom"></span>
+							                <span class="text__gray">Subgraph Size</span>
+							            </label>
+									</div>
+									<div class="main__calc_item">
+										<label>
+							                <input class="form-radio" type="radio" name="radio1">
+							                <span class="radio-custom"></span>
+							                <span class="text__gray">Number of samples</span>
+							            </label>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-12 text-right text-md-left">
+								<div class="page-title column text-left">
+									Randomization options
+								</div>
+								<div class="main__calc_item">
+									<div class="row">
+										<div class="col-lg-6 offset-lg-1 col-md-5 offset-md-0 col-6 offset-0">
+											<div class="text__gray text-left">
+												Exchanges per edges
+											</div>
+										</div>
+										<div class="col-lg-5 col-6 text-lg-right text-left">
+											<div class="number">
+					  							<span class="minus">-</span>
+					  							<input type="text" value="1">
+					  							<span class="plus">+</span>
+					  						</div>
+										</div>
+									</div>
+								</div>
+								<div class="main__calc_item">
+									<div class="row">
+										<div class="col-lg-6 offset-lg-1 col-md-5 offset-md-0 col-6 offset-0">
+											<div class="text__gray text-left">
+												Exchange Attempts
+											</div>
+										</div>
+										<div class="col-lg-5 col-6 text-lg-right text-left">
+											<div class="number">
+					  							<span class="minus">-</span>
+					  							<input type="text" value="1">
+					  							<span class="plus">+</span>
+					  						</div>
+										</div>
+									</div>
+								</div>
+								<div class="main__calc_item">
+									<div class="row">
+										<div class="col-lg-6 offset-lg-1 col-md-5 offset-md-0 col-6 offset-0">
+											<div class="text__gray text-left">
+												Randomaized graphs
+											</div>
+										</div>
+										<div class="col-lg-5 col-6 text-lg-right text-left">
+											<div class="number">
+					  							<span class="minus">-</span>
+					  							<input type="text" value="1">
+					  							<span class="plus">+</span>
+					  						</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="main-wrapper">
+						<div class="contacts">
+							<div class="page-title column">
+								Contact information
+							</div>
+							<div class="contacts__form">
+								<div class="row">
+									<div class="col-md-5">
+										<input type="text" placeholder="Name">
+										<input type="text" placeholder="E-mail">
+									</div>
+									<div class="col-md-7">
+										<textarea placeholder="Comment"></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="text-center">
+								<button class="main-btn">Send</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+    	//= template/footer.html
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script>
+
+    </body>
+</html>
